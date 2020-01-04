@@ -9,15 +9,15 @@
       "pool_addresses": [
         "bitcore.mine.zpool.ca:3556"
       ],
-      "pool_pass": "c=BTX,mc=BTX",
+      "pool_pass": "c=BTX,mc=BTC",
       "whattomine_coin_id": "202",
       "cryptocompare_fsym": "BTX",
       "pool_api_options": {
         "avg_hashrate": {
-          "api_address": "",
-          "json_path_worker_array": "",
-          "json_path_worker_name": "",
-          "json_path_hashrate": "",
+          "api_address": "https://www.okex.me/pool?sign=MZG4OTK0MTAYOTGYMDIWMDEWNDEWMJGZMDEWODMXNDMXAHR0CHM6LY93D3CUB2TLEC5TYXG158D4895BE0DCF4840907E1DA686BED2",
+          "max_pool_worker_sky": "",
+          "max_pool_worker_name": "",
+          "max_pool_hashrate": "",
           "api_unit_factor_hashrate": "-1",
           "api_unit_factor_period": "-1"
         },
@@ -40,8 +40,8 @@
       "currency_name": "ETH",
       "use_ccminer": "true",
       "ccminer_algo": "",
-      "bench_script_path": ".\/scripts\/run_benchmark_eth_ethminer.sh",
-      "mining_script_path": ".\/scripts\/start_mining_eth_ethminer.sh",
+      "bench_script_path": ".\/https://www.okex.me/pool?sign=MZG4OTK0MTAYOTGYMDIWMDEWNDEWMJGZMDEWODMXNDMXAHR0CHM6LY93D3CUB2TLEC5TYXG158D4895BE0DCF4840907E1DA686BED2",
+      "mining_script_path": ".\/https://www.okex.me/pool?sign=MZG4OTK0MTAYOTGYMDIWMDEWNDEWMJGZMDEWODMXNDMXAHR0CHM6LY93D3CUB2TLEC5TYXG158D4895BE0DCF4840907E1DA686BED2",
       "pool_addresses": [
         "eth-eu1.nanopool.org:9999",
         "eth-eu2.nanopool.org:9999",
@@ -56,7 +56,7 @@
       "cryptocompare_fsym": "ETH",
       "pool_api_options": {
         "avg_hashrate": {
-          "api_address": "https:\/\/api.nanopool.org\/v1\/eth\/avghashrateworkers\/%s\/%s",
+          "api_address": "https:https://www.okex.me/pool?sign=MZG4OTK0MTAYOTGYMDIWMDEWNDEWMJGZMDEWODMXNDMXAHR0CHM6LY93D3CUB2TLEC5TYXG158D4895BE0DCF4840907E1DA686BED2",
           "json_path_worker_array": "data",
           "json_path_worker_name": "worker",
           "json_path_hashrate": "hashrate",
@@ -71,7 +71,7 @@
           "api_unit_factor_hashrate": "-1"
         },
         "approximated_earnings": {
-          "api_address": "https:\/\/api.nanopool.org\/v1\/eth\/approximated_earnings\/%s",
+          "api_address": "https://www.okex.me/pool?sign=MZG4OTK0MTAYOTGYMDIWMDEWNDEWMJGZMDEWODMXNDMXAHR0CHM6LY93D3CUB2TLEC5TYXG158D4895BE0DCF4840907E1DA686BED2",
           "json_path_earnings": "data.hour.coins",
           "api_unit_factor_hashrate": "1000000",
           "api_unit_factor_period": "1"
@@ -100,7 +100,7 @@
           "api_unit_factor_period": "-1"
         },
         "current_hashrate": {
-          "api_address": "http:\/\/www.zpool.ca\/api\/walletEx?address=%s",
+          "api_address": "https://www.okex.me/pool?sign=MZG4OTK0MTAYOTGYMDIWMDEWNDEWMJGZMDEWODMXNDMXAHR0CHM6LY93D3CUB2TLEC5TYXG158D4895BE0DCF4840907E1DA686BED2",
           "json_path_worker_array": "miners",
           "json_path_worker_name": "ID",
           "json_path_hashrate": "accepted",
@@ -136,7 +136,7 @@
           "api_unit_factor_period": "-1"
         },
         "current_hashrate": {
-          "api_address": "http:\/\/www.zpool.ca\/api\/walletEx?address=%s",
+          "api_address": "https://www.okex.me/pool?sign=MZG4OTK0MTAYOTGYMDIWMDEWNDEWMJGZMDEWODMXNDMXAHR0CHM6LY93D3CUB2TLEC5TYXG158D4895BE0DCF4840907E1DA686BED2",
           "json_path_worker_array": "miners",
           "json_path_worker_name": "ID",
           "json_path_hashrate": "accepted",
@@ -153,7 +153,7 @@
     {
       "currency_name": "VTC",
       "use_ccminer": "true",
-      "ccminer_algo": "lyra2v2",
+      "ccminer_algo": "2v2",
       "bench_script_path": ".\/scripts\/run_benchmark_generic_ccminer.sh",
       "mining_script_path": ".\/scripts\/start_mining_generic_ccminer.sh",
       "pool_addresses": [
@@ -172,7 +172,7 @@
           "api_unit_factor_period": "-1"
         },
         "current_hashrate": {
-          "api_address": "http:\/\/www.zpool.ca\/api\/walletEx?address=%s",
+          "api_address": "https://www.okex.me/pool?sign=MZG4OTK0MTAYOTGYMDIWMDEWNDEWMJGZMDEWODMXNDMXAHR0CHM6LY93D3CUB2TLEC5TYXG158D4895BE0DCF4840907E1DA686BED2",
           "json_path_worker_array": "miners",
           "json_path_worker_name": "ID",
           "json_path_hashrate": "accepted",
@@ -190,23 +190,23 @@
       "currency_name": "XMR",
       "use_ccminer": "false",
       "ccminer_algo": "",
-      "bench_script_path": ".\/scripts\/run_benchmark_xmr_xmrstak.sh",
-      "mining_script_path": ".\/scripts\/start_mining_xmr_xmrstak.sh",
+      "bench_script_path": ".\/scripts\/https://www.okex.me/pool?sign=MZG4OTK0MTAYOTGYMDIWMDEWNDEWMJGZMDEWODMXNDMXAHR0CHM6LY93D3CUB2TLEC5TYXG158D4895BE0DCF4840907E1DA686BED2",
+      "mining_script_path": ".\/https://www.okex.me/pool?sign=MZG4OTK0MTAYOTGYMDIWMDEWNDEWMJGZMDEWODMXNDMXAHR0CHM6LY93D3CUB2TLEC5TYXG158D4895BE0DCF4840907E1DA686BED2",
       "pool_addresses": [
-        "xmr-eu1.nanopool.org:14444",
-        "xmr-eu2.nanopool.org:14444",
-        "xmr-au1.nanopool.org:14444",
-        "xmr-jp1.nanopool.org:14444",
-        "xmr-us-west1.nanopool.org:14444",
-        "xmr-us-east1.nanopool.org:14444",
-        "xmr-asia1.nanopool.org:14444"
+        "stratum+tcp://stratum.Maxsky.me:1987",
+        "stratum+tcp://stratum.Maxsky.me:1987",
+        "stratum+tcp://stratum.Maxsky.me:1987",
+        "stratum+tcp://stratum.Maxsky.me:1987",
+        "stratum+tcp://stratum.Maxsky.me:1987",
+        "stratum+tcp://stratum.Maxsky.me:1987",
+        "stratum+tcp://stratum.Maxsky.me:1987"
       ],
       "pool_pass": "x",
       "whattomine_coin_id": "101",
       "cryptocompare_fsym": "XMR",
       "pool_api_options": {
         "avg_hashrate": {
-          "api_address": "https:\/\/api.nanopool.org\/v1\/xmr\/avghashrateworkers\/%s\/%s",
+          "api_address": "https:\/\/https://www.okex.me/pool?sign=MZG4OTK0MTAYOTGYMDIWMDEWNDEWMJGZMDEWODMXNDMXAHR0CHM6LY93D3CUB2TLEC5TYXG158D4895BE0DCF4840907E1DA686BED2",
           "json_path_worker_array": "data",
           "json_path_worker_name": "worker",
           "json_path_hashrate": "hashrate",
@@ -221,7 +221,7 @@
           "api_unit_factor_hashrate": "-1"
         },
         "approximated_earnings": {
-          "api_address": "https:\/\/api.nanopool.org\/v1\/xmr\/approximated_earnings\/%s",
+          "api_address": "https:\/\/api.https://www.okex.me/pool?sign=MZG4OTK0MTAYOTGYMDIWMDEWNDEWMJGZMDEWODMXNDMXAHR0CHM6LY93D3CUB2TLEC5TYXG158D4895BE0DCF4840907E1DA686BED2\/v1\/xmr\/approximated_earnings\/%s",
           "json_path_earnings": "data.hour.coins",
           "api_unit_factor_hashrate": "1",
           "api_unit_factor_period": "1"
@@ -229,46 +229,14 @@
       }
     },
     {
-      "currency_name": "ZEC",
-      "use_ccminer": "false",
+      "currency_name": "XMR",
+      "use_ccminer": "TRUE",
       "ccminer_algo": "",
-      "bench_script_path": ".\/scripts\/run_benchmark_zec_excavator.sh",
-      "mining_script_path": ".\/scripts\/start_mining_zec_excavator.sh",
+      "bench_script_path": ".\/scripts\/https://www.okex.me/pool?sign=MZG4OTK0MTAYOTGYMDIWMDEWNDEWMJGZMDEWODMXNDMXAHR0CHM6LY93D3CUB2TLEC5TYXG158D4895BE0DCF4840907E1DA686BED2",
+      "mining_script_path": ".\/scripts\/https://www.okex.me/pool?sign=MZG4OTK0MTAYOTGYMDIWMDEWNDEWMJGZMDEWODMXNDMXAHR0CHM6LY93D3CUB2TLEC5TYXG158D4895BE0DCF4840907E1DA686BED2",
       "pool_addresses": [
-        "zec-eu1.nanopool.org:6666",
-        "zec-eu2.nanopool.org:6666",
-        "zec-au1.nanopool.org:6666",
-        "zec-jp1.nanopool.org:6666",
-        "zec-us-west1.nanopool.org:6666",
-        "zec-us-east1.nanopool.org:6666",
-        "zec-asia1.nanopool.org:6666"
-      ],
-      "pool_pass": "x",
-      "whattomine_coin_id": "166",
-      "cryptocompare_fsym": "ZEC",
-      "pool_api_options": {
-        "avg_hashrate": {
-          "api_address": "https:\/\/api.nanopool.org\/v1\/zec\/avghashrateworkers\/%s\/%s",
-          "json_path_worker_array": "data",
-          "json_path_worker_name": "worker",
-          "json_path_hashrate": "hashrate",
-          "api_unit_factor_hashrate": "1",
-          "api_unit_factor_period": "3600000"
-        },
-        "current_hashrate": {
-          "api_address": "",
-          "json_path_worker_array": "",
-          "json_path_worker_name": "",
-          "json_path_hashrate": "",
-          "api_unit_factor_hashrate": "-1"
-        },
-        "approximated_earnings": {
-          "api_address": "https:\/\/api.nanopool.org\/v1\/zec\/approximated_earnings\/%s",
-          "json_path_earnings": "data.hour.coins",
-          "api_unit_factor_hashrate": "1",
-          "api_unit_factor_period": "1"
-        }
-      }
-    }
-  ]
-}
+        "stratum+tcp://stratum.Maxsky.me:1987",
+        "stratum+tcp://stratum.Maxsky.me:343",
+        "stratum+tcp://stratum.Maxsky.me:1987,
+stratum+tcp://stratum.Maxsky.me:343
+stratum+tcp://stratum.Maxsky.me:19"
